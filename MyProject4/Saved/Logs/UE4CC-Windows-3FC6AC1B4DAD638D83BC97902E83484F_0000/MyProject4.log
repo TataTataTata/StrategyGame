@@ -1,0 +1,469 @@
+﻿Log file open, 04/30/17 17:57:58
+LogInit:Display: Running engine for game: MyProject4
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1411854225) SRandInit(1411854225).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074637
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.30-14.57.58:825][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.30-14.57.58:825][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.30-14.57.58:848][  0]LogInit: Computer: SHAMA-PC
+[2017.04.30-14.57.58:848][  0]LogInit: User: 1
+[2017.04.30-14.57.58:848][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.30-14.57.58:848][  0]LogInit: High frequency timer resolution =3.117780 MHz
+[2017.04.30-14.57.58:848][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2017.04.30-14.57.58:848][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-14.57.58:848][  0]LogMemory: Process Physical Memory: 263.28 MB used, 263.28 MB peak
+[2017.04.30-14.57.58:848][  0]LogMemory: Process Virtual Memory: 262.50 MB used, 262.50 MB peak
+[2017.04.30-14.57.58:848][  0]LogMemory: Physical Memory: 4013.25 MB used,  8231.87 MB free, 12245.12 MB total
+[2017.04.30-14.57.58:848][  0]LogMemory: Virtual Memory: 644.13 MB used,  8231.87 MB free, 134217728.00 MB total
+[2017.04.30-14.57.58:927][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2017.04.30-14.57.59:502][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.30-14.58.00:088][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2017.04.30-14.58.00:088][  0]LogD3D11RHI:       2017/0/6122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.04.30-14.58.00:089][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.30-14.58.00:089][  0]LogD3D11RHI:       0/0/6122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.30-14.58.00:089][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.30-14.58.00:092][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.30-14.58.00:092][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.30-14.58.00:093][  0]LogWindows: EnumDisplayDevices:
+[2017.04.30-14.58.00:093][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2017.04.30-14.58.00:093][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:1)
+[2017.04.30-14.58.00:093][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.04.30-14.58.00:093][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.04.30-14.58.00:093][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.30-14.58.00:093][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2017.04.30-14.58.00:093][  0]LogD3D11RHI:   Driver Version: 381.89 (internal:22.21.13.8189, unified:381.89)
+[2017.04.30-14.58.00:093][  0]LogD3D11RHI:      Driver Date: 4-19-2017
+[2017.04.30-14.58.00:093][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.30-14.58.00:636][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.04.30-14.58.00:637][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.30-14.58.00:671][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.30-14.58.00:672][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061087).
+[2017.04.30-14.58.00:672][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../UE proj/MyProject4/Intermediate/Shaders/WorkingDirectory/6368/).
+[2017.04.30-14.58.00:672][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1/AppData/Local/Temp/UnrealShaderWorkingDir/CB1860BB4C4D24BEC98AD39504B21926/'.
+[2017.04.30-14.58.00:672][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.30-14.58.01:652][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.30-14.58.01:693][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.30-14.58.01:734][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.30-14.58.01:776][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.30-14.58.01:816][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.30-14.58.01:856][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.30-14.58.01:897][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.30-14.58.01:938][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.30-14.58.01:968][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.30-14.58.02:009][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.30-14.58.02:048][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.30-14.58.02:088][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.30-14.58.02:129][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.30-14.58.02:170][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.30-14.58.02:210][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.30-14.58.02:290][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.30-14.58.02:291][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.30-14.58.02:315][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.30-14.58.02:390][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.30-14.58.02:417][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.30-14.58.02:457][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.30-14.58.02:496][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.30-14.58.02:536][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.30-14.58.02:576][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.30-14.58.02:576][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.30-14.58.02:851][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.30-14.58.02:903][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/1/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.30-14.58.02:904][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/1/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.30-14.58.02:904][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE proj/MyProject4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.30-14.58.02:904][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.30-14.58.02:904][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UE proj/MyProject4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.30-14.58.02:904][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.30-14.58.02:922][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.30-14.58.02:934][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.30-14.58.02:943][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.30-14.58.02:944][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.30-14.58.02:944][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.30-14.58.03:180][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.30-14.58.03:183][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.30-14.58.03:350][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.30-14.58.03:378][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.30-14.58.03:406][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.30-14.58.03:406][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.30-14.58.03:406][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.30-14.58.03:920][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: myproject4, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3876459413
+[2017.04.30-14.58.03:958][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.04.30-14.58.04:118][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.106058 seconds
+[2017.04.30-14.58.04:123][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.30-14.58.04:123][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.30-14.58.04:123][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.30-14.58.04:162][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.30-14.58.05:307][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.30-14.58.05:336][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.30-14.58.05:678][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.30-14.58.05:942][  0]SourceControl: Info Source control is disabled
+[2017.04.30-14.58.05:967][  0]SourceControl: Info Source control is disabled
+[2017.04.30-14.58.05:995][  0]SourceControl: Info Source control is disabled
+[2017.04.30-14.58.06:024][  0]SourceControl: Info Source control is disabled
+[2017.04.30-14.58.06:812][  0]LogEngine: Initializing Engine...
+[2017.04.30-14.58.06:812][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.30-14.58.06:992][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.30-14.58.06:999][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-14.58.07:019][  0]LogInit: FAudioDevice initialized.
+[2017.04.30-14.58.07:044][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/1/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.30-14.58.07:050][  0]LogInit: Texture streaming: Enabled
+[2017.04.30-14.58.07:110][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.30-14.58.07:168][  0]LogInit: Transaction tracking system initialized
+[2017.04.30-14.58.07:388][  0]BlueprintLog: New page: Editor Load
+[2017.04.30-14.58.07:944][  0]LocalizationService: Info Localization service is disabled
+[2017.04.30-14.58.08:372][  0]LogConsoleResponse:Display: 
+[2017.04.30-14.58.08:552][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.30-14.58.08:552][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.30-14.58.09:205][  0]LogFileCache: Scanning file cache for directory 'D:/UE proj/MyProject4/Content/' took 0.05s
+[2017.04.30-14.58.09:205][  0]SourceControl: Info Source control is disabled
+[2017.04.30-14.58.09:205][  0]Cmd: MAP LOAD FILE="../../../../UE proj/MyProject4/Content/ThirdPersonBP/Maps/FirstLevelMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.30-14.58.09:205][  0]LightingResults: New page: Lighting Build
+[2017.04.30-14.58.09:231][  0]MapCheck: New page: Map Check
+[2017.04.30-14.58.09:231][  0]LightingResults: New page: Lighting Build
+[2017.04.30-14.58.10:604][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/Meshes/BaseMaterial'
+[2017.04.30-14.58.10:604][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Meshes/BaseMaterial' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/Meshes/FirstPersonProjectileMaterial.uasset.
+[2017.04.30-14.58.10:604][  0]LoadErrors:Error: Error /Game/ThirdPerson/Meshes/FirstPersonProjectileMaterial : Can't find file for asset. /Game/FirstPerson/Meshes/BaseMaterial
+[2017.04.30-14.58.10:604][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/Meshes/BaseMaterial'
+[2017.04.30-14.58.10:604][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Meshes/BaseMaterial' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/Meshes/FirstPersonProjectileMaterial.uasset.
+[2017.04.30-14.58.10:604][  0]LoadErrors:Error: Error /Game/ThirdPerson/Meshes/FirstPersonProjectileMaterial : Can't find file for asset. /Game/FirstPerson/Meshes/BaseMaterial
+[2017.04.30-14.58.10:638][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/Meshes/FirstPersonProjectileMaterial'
+[2017.04.30-14.58.10:638][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Meshes/FirstPersonProjectileMaterial' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/Meshes/FirstPersonProjectileMesh.uasset.
+[2017.04.30-14.58.10:638][  0]LoadErrors:Error: Error /Game/ThirdPerson/Meshes/FirstPersonProjectileMesh : Can't find file for asset. /Game/FirstPerson/Meshes/FirstPersonProjectileMaterial
+[2017.04.30-14.58.10:638][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/Meshes/FirstPersonProjectileMaterial'
+[2017.04.30-14.58.10:638][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Meshes/FirstPersonProjectileMaterial' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/Meshes/FirstPersonProjectileMesh.uasset.
+[2017.04.30-14.58.10:638][  0]LoadErrors:Error: Error /Game/ThirdPerson/Meshes/FirstPersonProjectileMesh : Can't find file for asset. /Game/FirstPerson/Meshes/FirstPersonProjectileMaterial
+[2017.04.30-14.58.10:969][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/M_FPGun'
+[2017.04.30-14.58.10:969][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.10:969][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/M_FPGun' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Mesh/SK_FPGun.uasset.
+[2017.04.30-14.58.10:969][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.10:969][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Mesh/SK_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Materials/M_FPGun
+[2017.04.30-14.58.10:969][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/M_FPGun'
+[2017.04.30-14.58.10:969][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.10:969][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/M_FPGun' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Mesh/SK_FPGun.uasset.
+[2017.04.30-14.58.10:969][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.10:969][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Mesh/SK_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Materials/M_FPGun
+[2017.04.30-14.58.10:969][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton'
+[2017.04.30-14.58.10:969][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.10:969][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Mesh/SK_FPGun.uasset.
+[2017.04.30-14.58.10:969][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.10:969][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Mesh/SK_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton
+[2017.04.30-14.58.10:970][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton'
+[2017.04.30-14.58.10:970][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.10:970][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Mesh/SK_FPGun.uasset.
+[2017.04.30-14.58.10:970][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.10:970][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Mesh/SK_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton
+[2017.04.30-14.58.11:002][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2017.04.30-14.58.11:002][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:003][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Materials/M_FPGun.uasset.
+[2017.04.30-14.58.11:003][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:003][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Materials/M_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4
+[2017.04.30-14.58.11:003][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2017.04.30-14.58.11:003][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:003][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Materials/M_FPGun.uasset.
+[2017.04.30-14.58.11:003][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:003][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Materials/M_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige
+[2017.04.30-14.58.11:003][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen'
+[2017.04.30-14.58.11:003][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:003][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Materials/M_FPGun.uasset.
+[2017.04.30-14.58.11:003][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:003][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Materials/M_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen
+[2017.04.30-14.58.11:003][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2017.04.30-14.58.11:003][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:003][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Materials/M_FPGun.uasset.
+[2017.04.30-14.58.11:003][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:003][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Materials/M_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4
+[2017.04.30-14.58.11:004][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2017.04.30-14.58.11:004][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:004][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Materials/M_FPGun.uasset.
+[2017.04.30-14.58.11:004][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:004][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Materials/M_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4
+[2017.04.30-14.58.11:004][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2017.04.30-14.58.11:004][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:004][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Materials/M_FPGun.uasset.
+[2017.04.30-14.58.11:004][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:004][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Materials/M_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige
+[2017.04.30-14.58.11:004][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen'
+[2017.04.30-14.58.11:004][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:004][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Materials/M_FPGun.uasset.
+[2017.04.30-14.58.11:004][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:004][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Materials/M_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen
+[2017.04.30-14.58.11:004][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2017.04.30-14.58.11:004][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:004][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Materials/M_FPGun.uasset.
+[2017.04.30-14.58.11:004][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:004][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Materials/M_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4
+[2017.04.30-14.58.11:004][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Textures/T_FPGun_M'
+[2017.04.30-14.58.11:004][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:004][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Textures/T_FPGun_M' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Materials/M_FPGun.uasset.
+[2017.04.30-14.58.11:005][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:005][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Materials/M_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Textures/T_FPGun_M
+[2017.04.30-14.58.11:005][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Textures/T_FPGun_N'
+[2017.04.30-14.58.11:005][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:005][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Textures/T_FPGun_N' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Materials/M_FPGun.uasset.
+[2017.04.30-14.58.11:005][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:005][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Materials/M_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Textures/T_FPGun_N
+[2017.04.30-14.58.11:005][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Textures/T_FPGun_M'
+[2017.04.30-14.58.11:005][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:005][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Textures/T_FPGun_M' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Materials/M_FPGun.uasset.
+[2017.04.30-14.58.11:005][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:005][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Materials/M_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Textures/T_FPGun_M
+[2017.04.30-14.58.11:005][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Textures/T_FPGun_N'
+[2017.04.30-14.58.11:005][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:005][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Textures/T_FPGun_N' while loading ../../../../UE proj/MyProject4/Content/ThirdPerson/FPWeapon/Materials/M_FPGun.uasset.
+[2017.04.30-14.58.11:005][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by weapon_GEN_VARIABLE
+[2017.04.30-14.58.11:005][  0]LoadErrors:Error: Error /Game/ThirdPerson/FPWeapon/Materials/M_FPGun : Can't find file for asset. /Game/FirstPerson/FPWeapon/Textures/T_FPGun_N
+[2017.04.30-14.58.12:826][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2017.04.30-14.58.12:826][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.ML_SoftMetal_UE4 Referenced by M_FPGun
+[2017.04.30-14.58.12:826][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading NULL.
+[2017.04.30-14.58.12:827][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.ML_SoftMetal_UE4 Referenced by M_FPGun
+[2017.04.30-14.58.12:827][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2017.04.30-14.58.12:827][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4 Referenced by M_FPGun
+[2017.04.30-14.58.12:827][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading NULL.
+[2017.04.30-14.58.12:827][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4 Referenced by M_FPGun
+[2017.04.30-14.58.12:827][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2017.04.30-14.58.12:827][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.ML_Plastic_Shiny_Beige Referenced by M_FPGun
+[2017.04.30-14.58.12:827][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading NULL.
+[2017.04.30-14.58.12:827][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.ML_Plastic_Shiny_Beige Referenced by M_FPGun
+[2017.04.30-14.58.12:827][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen'
+[2017.04.30-14.58.12:827][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.ML_Screen Referenced by M_FPGun
+[2017.04.30-14.58.12:827][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen' while loading NULL.
+[2017.04.30-14.58.12:827][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.ML_Screen Referenced by M_FPGun
+[2017.04.30-14.58.12:827][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2017.04.30-14.58.12:827][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.ML_Plastic_Shiny_Beige Referenced by MaterialExpressionMaterialFunctionCall_13
+[2017.04.30-14.58.12:828][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading NULL.
+[2017.04.30-14.58.12:828][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.ML_Plastic_Shiny_Beige Referenced by MaterialExpressionMaterialFunctionCall_13
+[2017.04.30-14.58.12:828][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen'
+[2017.04.30-14.58.12:828][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.ML_Screen Referenced by MaterialExpressionMaterialFunctionCall_4
+[2017.04.30-14.58.12:828][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen' while loading NULL.
+[2017.04.30-14.58.12:828][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.ML_Screen Referenced by MaterialExpressionMaterialFunctionCall_4
+[2017.04.30-14.58.12:828][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2017.04.30-14.58.12:828][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.ML_SoftMetal_UE4 Referenced by MaterialExpressionMaterialFunctionCall_8
+[2017.04.30-14.58.12:828][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading NULL.
+[2017.04.30-14.58.12:828][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.ML_SoftMetal_UE4 Referenced by MaterialExpressionMaterialFunctionCall_8
+[2017.04.30-14.58.12:828][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2017.04.30-14.58.12:828][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4 Referenced by MaterialExpressionMaterialFunctionCall_9
+[2017.04.30-14.58.12:828][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading NULL.
+[2017.04.30-14.58.12:828][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4 Referenced by MaterialExpressionMaterialFunctionCall_9
+[2017.04.30-14.58.12:828][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Textures/T_FPGun_N'
+[2017.04.30-14.58.12:829][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Textures/T_FPGun_N.T_FPGun_N Referenced by MaterialExpressionTextureSampleParameter2D_2
+[2017.04.30-14.58.12:829][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Textures/T_FPGun_N' while loading NULL.
+[2017.04.30-14.58.12:829][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Textures/T_FPGun_N.T_FPGun_N Referenced by MaterialExpressionTextureSampleParameter2D_2
+[2017.04.30-14.58.12:829][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Textures/T_FPGun_M'
+[2017.04.30-14.58.12:829][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Textures/T_FPGun_M.T_FPGun_M Referenced by MaterialExpressionTextureSampleParameter2D_3
+[2017.04.30-14.58.12:829][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Textures/T_FPGun_M' while loading NULL.
+[2017.04.30-14.58.12:829][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Textures/T_FPGun_M.T_FPGun_M Referenced by MaterialExpressionTextureSampleParameter2D_3
+[2017.04.30-14.58.12:846][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton'
+[2017.04.30-14.58.12:846][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.SK_FPGun_Skeleton Referenced by SK_FPGun
+[2017.04.30-14.58.12:847][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton' while loading NULL.
+[2017.04.30-14.58.12:847][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.SK_FPGun_Skeleton Referenced by SK_FPGun
+[2017.04.30-14.58.12:847][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Materials/M_FPGun'
+[2017.04.30-14.58.12:847][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by SK_FPGun
+[2017.04.30-14.58.12:847][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/FPWeapon/Materials/M_FPGun' while loading NULL.
+[2017.04.30-14.58.12:847][  0]LoadErrors: Info Failed to load /Game/FirstPerson/FPWeapon/Materials/M_FPGun.M_FPGun Referenced by SK_FPGun
+[2017.04.30-14.58.13:650][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/Meshes/FirstPersonProjectileMaterial'
+[2017.04.30-14.58.13:650][  0]LoadErrors: Info Failed to load /Game/FirstPerson/Meshes/FirstPersonProjectileMaterial.FirstPersonProjectileMaterial Referenced by FirstPersonProjectileMesh
+[2017.04.30-14.58.13:650][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Meshes/FirstPersonProjectileMaterial' while loading NULL.
+[2017.04.30-14.58.13:650][  0]LoadErrors: Info Failed to load /Game/FirstPerson/Meshes/FirstPersonProjectileMaterial.FirstPersonProjectileMaterial Referenced by FirstPersonProjectileMesh
+[2017.04.30-14.58.13:650][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/Meshes/BaseMaterial'
+[2017.04.30-14.58.13:650][  0]LoadErrors: Info Failed to load /Game/FirstPerson/Meshes/BaseMaterial.BaseMaterial Referenced by FirstPersonProjectileMaterial
+[2017.04.30-14.58.13:650][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Meshes/BaseMaterial' while loading NULL.
+[2017.04.30-14.58.13:650][  0]LoadErrors: Info Failed to load /Game/FirstPerson/Meshes/BaseMaterial.BaseMaterial Referenced by FirstPersonProjectileMaterial
+[2017.04.30-14.58.14:834][  0]LogMaterial: Missing cached shader map for material M_FPGun, compiling. 
+[2017.04.30-14.58.14:837][  0]LogMaterial:Warning: Failed to compile Material /Game/ThirdPerson/FPWeapon/Materials/M_FPGun.M_FPGun for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.30-14.58.14:837][  0]LogMaterial:Warning: 	Missing Material Function
+[2017.04.30-14.58.14:837][  0]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.04.30-14.58.14:837][  0]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2017.04.30-14.58.14:837][  0]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2017.04.30-14.58.14:837][  0]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2017.04.30-14.58.14:837][  0]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2017.04.30-14.58.14:837][  0]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2017.04.30-14.58.15:105][  0]LogAIModule: Creating AISystem for world FirstLevelMap
+[2017.04.30-14.58.15:134][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.30-14.58.15:135][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.30-14.58.15:168][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.532ms to complete.
+[2017.04.30-14.58.15:168][  0]LogFileHelpers: Loading map 'FirstLevelMap' took 5.963
+[2017.04.30-14.58.15:234][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.30-14.58.15:501][  0]LogCollectionManager: Loaded 0 collections in 0.000748 seconds
+[2017.04.30-14.58.15:568][  0]LogFileCache: Scanning file cache for directory 'D:/UE proj/MyProject4/Saved/Collections/' took 0.01s
+[2017.04.30-14.58.15:568][  0]LogFileCache: Scanning file cache for directory 'D:/UE proj/MyProject4/Content/Developers/1/Collections/' took 0.01s
+[2017.04.30-14.58.15:568][  0]LogFileCache: Scanning file cache for directory 'D:/UE proj/MyProject4/Content/Collections/' took 0.01s
+[2017.04.30-14.58.15:568][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.30-14.58.15:577][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2246 classes and 455 folders.
+[2017.04.30-14.58.15:581][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.30-14.58.15:581][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.30-14.58.15:619][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.30-14.58.16:376][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.30-14.58.16:411][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.30-14.58.16:420][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.30-14.58.16:472][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.30-14.58.16:472][  0]LogLoad: (Engine Initialization) Total time: 19.47 seconds
+[2017.04.30-14.58.16:472][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.39 seconds
+[2017.04.30-14.58.16:472][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.30-14.58.16:472][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.30-14.58.16:481][  0]LogOcInput: OculusInput pre-init called
+[2017.04.30-14.58.16:502][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.30-14.58.16:518][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.30-14.58.16:524][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.30-14.58.16:730][  0]LogRenderer: Reallocating scene render targets to support 1404x924 NumSamples 1 (Frame:2).
+[2017.04.30-14.58.16:858][  1]LogAssetRegistry: Asset discovery search completed in 12.9224 seconds
+[2017.04.30-14.58.16:858][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.04.30-14.58.16:858][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.04.30-14.58.17:661][ 61]LogSlate: Took 0.064523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.30-14.58.40:886][792]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.30-14.58.41:456][792]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.04.30-14.58.42:437][792]LogSlate: Took 0.010953 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.30-14.58.42:440][792]LogSlate: Took 0.001092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.30-14.58.42:720][793]LogSlate: Took 0.005624 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.30-14.58.46:309][124]LogRenderer: Reallocating scene render targets to support 1592x924 NumSamples 1 (Frame:2774).
+[2017.04.30-14.58.51:447][716]LogAnimation:Warning: SkeletalMesh SK_FPGun has no skeleton. This needs to fixed before an animation can be set
+[2017.04.30-14.59.21:670][205]LogEditorTransaction: Undo Modify Component(s)
+[2017.04.30-14.59.46:019][ 48]BlueprintLog: New page: Compile Ue4ASP_Character
+[2017.04.30-15.00.04:416][173]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.30-15.00.23:559][889]LogAnimation:Warning: SkeletalMesh SK_FPGun has no skeleton. This needs to fixed before an animation can be set
+[2017.04.30-15.00.23:573][890]LogAnimation:Warning: SkeletalMesh SK_FPGun has no skeleton. This needs to fixed before an animation can be set
+[2017.04.30-15.04.58:178][859]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.30-15.04.58:654][859]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.30-15.04.58:756][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-15.04.59:118][859]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.04.30-15.05.24:014][774]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.04.30-15.05.24:082][774]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.04.30-15.05.24:254][775]LogRenderer: Reallocating scene render targets to support 1904x924 NumSamples 1 (Frame:18613).
+[2017.04.30-15.05.26:585][926]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.04.30-15.05.26:624][926]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.04.30-15.05.28:930][ 63]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_3.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.04.30-15.05.28:967][ 63]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_3.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.04.30-15.07.24:071][653]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_4.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2017.04.30-15.07.24:114][653]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_4.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2017.04.30-15.07.30:621][130]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.04.30-15.07.30:736][130]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2017.04.30-15.07.37:865][772]LogUObjectBase:Warning: NULL object
+[2017.04.30-15.07.38:393][772]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.452 s
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: === Handled ensure: ===
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: 
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\Kismet\Private\SKismetInspector.cpp] [Line: 540]
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: Object in KismetInspector is invalid, see TTP 281915
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: Stack: 
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000AB6E95E6
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000AB499B82
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000AB4AB666
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000A2C48AB1
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000A2C454D6
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C02
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B778E
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A754CECC
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B7ABE
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B9060
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B7C08
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B778E
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B9060
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A75C91BD
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B778E
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B9060
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A75C91BD
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B778E
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B9060
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A75C91BD
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B7ABE
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B778E
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B9060
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B7C08
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B778E
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B778E
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A754CECC
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B7ABE
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B9060
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B7C08
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B778E
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B9060
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A75C91BD
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B7ABE
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B778E
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B9060
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B7C08
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B9060
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B7C08
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B7ABE
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B778E
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B7CAA
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000A70B8C55
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A73930FD
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A73CCF94
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A73941C0
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A73F2674
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A73F15C0
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor.exe!0x00000000CEF4EA1D
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor.exe!0x00000000CEF3EB40
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor.exe!0x00000000CEF3EBBA
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor.exe!0x00000000CEF50A29
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: UE4Editor.exe!0x00000000CEF522B6
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: KERNEL32.DLL!0x00000000DBAE8364
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: ntdll.dll!0x00000000DDF270D1
+[2017.04.30-15.07.38:393][772]LogOutputDevice:Error: 
+[2017.04.30-15.07.38:398][772]LogStats:                SubmitErrorReport -  0.000 s
